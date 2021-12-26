@@ -20,27 +20,27 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="z6j-rh-fYd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fGU-Ub-VWh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fGU-Ub-VWh">
                                 <rect key="frame" x="109" y="114" width="196" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="qbv-3e-82T"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="MqD-WI-V2E">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="MqD-WI-V2E">
                                 <rect key="frame" x="239" y="388" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="g4W-2f-sgS"/>
                                     <constraint firstAttribute="height" constant="120" id="sus-44-Vz2"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="SrF-OM-0k3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="SrF-OM-0k3">
                                 <rect key="frame" x="55" y="388" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="PJU-8p-Xdd"/>
                                     <constraint firstAttribute="width" constant="120" id="qkw-Gx-m9g"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcb-s9-lRh">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcb-s9-lRh">
                                 <rect key="frame" x="132" y="752" width="150" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="A3R-40-aAd"/>
@@ -62,19 +62,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="SrF-OM-0k3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4nh-pA-0Dt"/>
-                            <constraint firstAttribute="bottom" secondItem="z6j-rh-fYd" secondAttribute="bottom" id="8GD-Fh-U2C"/>
-                            <constraint firstItem="fGU-Ub-VWh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="AcF-8v-EwJ"/>
-                            <constraint firstItem="z6j-rh-fYd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CJO-iS-vMw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hcb-s9-lRh" secondAttribute="bottom" constant="50" id="Moz-BG-aGj"/>
-                            <constraint firstAttribute="trailing" secondItem="z6j-rh-fYd" secondAttribute="trailing" id="RBL-f4-l7M"/>
-                            <constraint firstItem="z6j-rh-fYd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="caF-oC-rJ4"/>
-                            <constraint firstItem="hcb-s9-lRh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fgN-Rf-1EI"/>
-                            <constraint firstItem="MqD-WI-V2E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i3P-PQ-h7f"/>
-                            <constraint firstItem="SrF-OM-0k3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="iPa-Fo-8WJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MqD-WI-V2E" secondAttribute="trailing" constant="55" id="kC3-fQ-Igf"/>
-                            <constraint firstItem="fGU-Ub-VWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lIM-RI-W6Z"/>
-                            <constraint firstItem="SrF-OM-0k3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="mta-8p-FiX"/>
+                            <constraint firstAttribute="bottom" secondItem="z6j-rh-fYd" secondAttribute="bottom" id="WPb-Al-7AS"/>
+                            <constraint firstItem="z6j-rh-fYd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="aLo-JE-fgP"/>
+                            <constraint firstItem="z6j-rh-fYd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dsy-rs-diU"/>
+                            <constraint firstItem="z6j-rh-fYd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iW2-U3-xyA"/>
                         </constraints>
                     </view>
                     <connections>
